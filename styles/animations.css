@@ -1,9 +1,9 @@
+.completed {
+    opacity: 0.6;
+}
+
 .fall {
     transform: translateY(8rem) rotateZ(30deg);
     opacity: 0;
     transition: 1s;
-}
-
-.completed {
-    opacity: 0.6;
 }
