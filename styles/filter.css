@@ -1,0 +1,39 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select {
+    color: var(--dark-blue);
+    width: 10rem;
+    cursor: pointer;
+    padding: 0.82rem;
+    border-radius: 0.3rem;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    color: var(--dark-blue);
+    top: 0;
+    right: 0;
+    padding: 0.62rem;
+    pointer-events: none;
+    border-radius: 0 0.3rem 0.3rem 0;
+    transition: all 0.3s ease;
+}
+
+.select:hover::after {
+    background-color: var(--dark-blue);
+    color: #fff;
+    transition: 0.5s;
+}

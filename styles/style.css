@@ -1,0 +1,23 @@
+@import url('./header.css');
+@import url('./form.css');
+@import url('./todo.css');
+@import url('./animations.css');
+@import url('./filter.css');
+
+:root {
+    --dark-blue: #1167b1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #28b5e3, #1167b1);
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+}
