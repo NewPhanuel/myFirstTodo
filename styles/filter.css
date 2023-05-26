@@ -40,9 +40,10 @@ select {
 
 @media (max-width: 640px) {
     select {
-        font-size: 0.95em;
+        /* font-size: 0.95em;
         max-width: 10vw;
-        transform: scale(0.85);
+        transform: scale(0.85); */
+        display: none;
     }
 
     .select::after {
