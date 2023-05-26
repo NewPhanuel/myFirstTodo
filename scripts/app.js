@@ -88,17 +88,6 @@ const checkButton = (e) => {
     }
 };
 
-// const rememberCheckedTodos = (todo) => {
-//     let checked;
-
-//     localStorage.getItem('checked') === null
-//         ? (checked = [])
-//         : (checked = JSON.parse(localStorage.getItem('checked')));
-
-//     checked.push(todo.children[0].innerText);
-//     localStorage.setItem('checked', JSON.stringify(checked));
-// };
-
 const filterTodo = (e) => {
     const todos = todoList.childNodes;
     todos.forEach((todo) => {
