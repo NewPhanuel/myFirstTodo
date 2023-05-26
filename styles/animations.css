@@ -1,9 +1,13 @@
 .completed {
-    opacity: 0.6;
+    opacity: 0.75;
 }
 
 .fall {
     transform: translateY(8rem) rotateZ(30deg);
     opacity: 0;
     transition: 1s;
+}
+
+.strike {
+    text-decoration: line-through;
 }
