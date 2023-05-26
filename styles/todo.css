@@ -64,6 +64,6 @@ div.todo-buttons {
     }
 
     div.todo:last-of-type {
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
 }
