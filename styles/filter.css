@@ -37,3 +37,20 @@ select {
     color: #fff;
     transition: 0.5s;
 }
+
+@media (max-width: 640px) {
+    select {
+        font-size: 0.95em;
+        max-width: 10vw;
+        transform: scale(0.85);
+    }
+
+    .select::after {
+        /* -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        border: none; */
+        content: none;
+    }
+}

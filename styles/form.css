@@ -29,3 +29,11 @@ form button:hover {
 form input {
     border-radius: 0.3rem 0 0 0.3rem;
 }
+
+@media (max-width: 640px) {
+    form input,
+    form button {
+        font-size: 0.9em;
+        max-width: 55vw;
+    }
+}

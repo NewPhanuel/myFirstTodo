@@ -50,3 +50,16 @@ div.todo-buttons {
     color: #fff;
     transition: 0.5s;
 }
+
+@media (max-width: 640px) {
+    div.todo {
+        min-width: none;
+        font-size: 1rem;
+    }
+
+    ul.todo-list {
+        min-width: 80vw;
+        max-width: none;
+        width: 80%;
+    }
+}
