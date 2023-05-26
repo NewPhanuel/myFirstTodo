@@ -35,14 +35,14 @@ form input {
         font-size: 0.9em;
         min-width: 65vw;
         position: relative;
-        left: 3vw;
+        left: 4vw;
     }
 
     form button {
         font-size: 0.9em;
         margin-right: 0;
         position: relative;
-        left: 3vw;
+        left: 4vw;
     }
 }
 
